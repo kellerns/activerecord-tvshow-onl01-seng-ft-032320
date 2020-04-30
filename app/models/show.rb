@@ -7,4 +7,3 @@ class Show < ActiveRecord::Base
     self.where("rating = ?", self.highest_rating)
   end
 end
-
