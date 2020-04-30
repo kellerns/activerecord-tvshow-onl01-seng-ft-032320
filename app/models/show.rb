@@ -8,5 +8,3 @@ class Show < ActiveRecord::Base
   end
 end
 
-
-Client.where("orders_count = ?", params[:orders])
